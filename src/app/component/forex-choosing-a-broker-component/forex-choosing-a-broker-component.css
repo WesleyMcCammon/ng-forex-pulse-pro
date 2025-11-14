@@ -1,0 +1,13 @@
+.highlight {
+    background-color: #e0f7fa;
+    padding: 1rem;
+    border-left: 4px solid #00b4d8;
+    margin: 1.5rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e0f7fa;
+    font-size: 0.9rem;
+}

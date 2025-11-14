@@ -1,0 +1,24 @@
+<div class="page-header">
+    <h1>Proprietary Firms</h1>
+</div>
+&nbsp;
+<table>
+    <thead>
+        <tr>
+            <th>Company Name</th>
+            <th>Plans Available</th>
+            <th>Cost Range</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(propFirm of propFirms; track propFirm) {
+            <tr>
+                <td>{{propFirm.companyName}}</td>
+                <td>{{propFirm.plansAvailable}}</td>
+                <td>{{propFirm.costRange}}</td>
+                <td><a [href]="propFirm.url" target="_blank">Visit Site</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

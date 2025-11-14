@@ -1,0 +1,26 @@
+<div class="page-header">
+    <h1>Trading Software</h1>
+</div>
+&nbsp;
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Platform</th>
+            <th>Best For</th>
+            <th>Popular Brokers</th>
+            <th>Website</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(tradingSoftware of tradingSoftwares; track tradingSoftware) {
+            <tr>
+                <td>{{tradingSoftware.rank}}</td>
+                <td>{{tradingSoftware.platform}}</td>
+                <td>{{tradingSoftware.bestFor}}</td>
+                <td>{{tradingSoftware.popularBrokers}}</td>
+                <td><a [href]="tradingSoftware.url" target="_blank">Visit Site</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

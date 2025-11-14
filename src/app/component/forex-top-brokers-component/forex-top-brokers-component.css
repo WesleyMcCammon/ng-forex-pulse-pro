@@ -1,0 +1,33 @@
+.broker-name {
+    font-weight: bold;
+    color: #023047;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #e0f7fa;
+    font-size: 0.9rem;
+}
+
+.broker-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+img {
+    display: none;
+}
+
+td:first-child {
+    display:none;
+}
+th:first-child {
+    display: none;
+}

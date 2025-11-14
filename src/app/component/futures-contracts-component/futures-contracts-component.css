@@ -1,0 +1,23 @@
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+select,
+input {
+    width: 25%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+}
